@@ -1,33 +1,22 @@
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
-        HashMap<Integer , Integer> hm= new HashMap<>();
-        for(int i=0;i<nums.length;i++)
+
+        Map<Integer , Integer> hashmap = new HashMap<>();
+
+        for(int i = 0 ; i < nums.length ; i++)
         {
-            if(hm.containsKey(nums[i]))
+            if(hashmap.containsKey(nums[i]) && i - hashmap.get(nums[i]) <= k)
             {
-                int idx= hm.get(nums[i]);
-                if((i-idx)<=k)
-                {
-                    return true;
-
-                }
-                else
-                {
-                    hm.put(nums[i],i);
-
-                }
-
-
+                return true;
             }
             else
             {
-                hm.put(nums[i],i);
-
+                hashmap.put(nums[i] , i);
             }
-
         }
-        return false;
 
-        
+        return false;
+       
+       
     
 }}
