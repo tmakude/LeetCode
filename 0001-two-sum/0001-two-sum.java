@@ -1,17 +1,21 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        
-        
-        for(int i=0;i<nums.length-1;i++)
+
+        int arr[] = new int[2];
+
+        for(int i = 0 ; i< nums.length-1 ; i++)
         {
-            for(int j=i+1;j<nums.length;j++)
+            for(int k= i+1 ; k < nums.length ; k++)
             {
-                if(nums[i]+nums[j]==target)
+                if(nums[i] + nums[k] == target)
                 {
-                    return new int[]{i,j};
+                    return new int[]{ i , k};
                 }
             }
         }
-         throw new IllegalArgumentException("No two sum solution");
+        return null;
+        
+        
+       
     }
 }
