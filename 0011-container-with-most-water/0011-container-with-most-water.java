@@ -1,32 +1,28 @@
 class Solution {
     public int maxArea(int[] height) {
-        //Use Two pointer Approach
+       
 
-        int maxarea = 0;
-        int leftcolumn = 0;
-        int rightcolumn=height.length - 1;
+        // use two pointer aooroach
 
-        while(leftcolumn < rightcolumn)
+        int maxarea = 0 ;
+        int leftColumn = 0 ;
+        int rightCoulmn = height.length - 1;
+
+        while(leftColumn < rightCoulmn)
         {
-            // Find minimum height column
-            int mincolumn = Math.min(height[leftcolumn] , height[rightcolumn]);
-            // find the weidth 
-            int weidth = rightcolumn - leftcolumn;
+            int width = rightCoulmn -  leftColumn ;
+            int minarea = Math.min(height[leftColumn] , height[rightCoulmn]);
+            int currentarea= width * minarea;
 
-            // find capacity of water store in rhat area
-            int area= mincolumn * weidth ;
+            maxarea = Math.max(maxarea , currentarea);
 
-            maxarea = Math.max(maxarea , area );
-
-            // Compare height of leftcolumn nad rigthcolumn
-
-            if(height[leftcolumn] < height[rightcolumn])
+            if(height[leftColumn]  < height[rightCoulmn])
             {
-                leftcolumn++;
+                leftColumn++;
             }
             else
             {
-             rightcolumn--;   
+                rightCoulmn--;
             }
 
         }
