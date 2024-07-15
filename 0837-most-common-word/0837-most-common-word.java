@@ -12,8 +12,8 @@ class Solution {
         {
             if(!newBanned.contains(word))
             {
-                wordCount.put(word , wordCount.getOrDefault(word , 0)+1);
-            }
+                wordCount.put(word , wordCount.getOrDefault(word , 0)+1);}
+            
         }
 
         String mostComman = " ";
