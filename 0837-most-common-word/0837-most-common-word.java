@@ -1,7 +1,7 @@
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
 
-        String lowerCaseParagraph = paragraph.replaceAll("[!?',;.]", " ").toLowerCase();
+        String lowerCaseParagraph = paragraph.replaceAll("[!?',;.]"," ").toLowerCase();
 
         String [] splitParagraph = lowerCaseParagraph.split("\\s+");
 
@@ -13,7 +13,7 @@ class Solution {
         {
             if(!bannedList.contains(word))
             {
-                countWords.put(word , countWords.getOrDefault(word , 0)+1 );
+                countWords.put(word , countWords.getOrDefault(word , 0) + 1 );
             }
         }
 
