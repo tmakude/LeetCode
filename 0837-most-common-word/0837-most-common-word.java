@@ -1,34 +1,37 @@
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
 
-        String newParaghraph = paragraph.replaceAll("[!?',;\\.]", " ").toLowerCase();
+        String lowerCaseParagraph = paragraph.replaceAll("[!?',;.]", " ").toLowerCase();
 
-        String[] words = newParaghraph.split("\\s+");
+        String [] splitParagraph = lowerCaseParagraph.split("\\s+");
 
-        Set<String> newBanned = new HashSet<>(Arrays.asList(banned));
-        Map<String , Integer> wordCount = new HashMap<>();
+        Set<String> bannedList = new HashSet<>(Arrays.asList(banned));
 
-        for(String word : words)
+        Map<String , Integer> countWords = new HashMap<>();
+
+        for(String word : splitParagraph )
         {
-            if(!newBanned.contains(word))
+            if(!bannedList.contains(word))
             {
-                wordCount.put(word , wordCount.getOrDefault(word , 0)+1);}
-            
-        }
-
-        String mostComman = " ";
-        int maxCount = 0;
-
-        for(Map.Entry<String , Integer> entry : wordCount.entrySet()){
-
-            if(entry.getValue() > maxCount)
-            {
-                maxCount = entry.getValue();
-                mostComman = entry.getKey();
+                countWords.put(word , countWords.getOrDefault(word , 0)+1 );
             }
         }
 
-        return mostComman;
+        String mostCommanWord = " ";
+        int maxcount =0;
+
+        for(Map.Entry<String , Integer> entry : countWords.entrySet())
+        {
+            if(entry.getValue() > maxcount)
+            {
+                maxcount = entry.getValue();
+                mostCommanWord = entry.getKey();
+
+            }
+        }
+
+        return mostCommanWord;
+
         
     }
 }
