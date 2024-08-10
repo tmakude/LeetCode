@@ -4,14 +4,15 @@ class Solution {
         Arrays.sort(costs);
 
         int count = 0 ;
-        int coinss = coins;
+        
 
-        for(int i =0 ; i < costs.length ; i++)
+        for(int i  : costs)
         {
-            if(costs[i] <= coinss)
+            if(i <= coins)
             {
-                coinss -=costs[i];
                 count++;
+                coins -=i;
+                
             }
         }
 
