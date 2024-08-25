@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/tmakude/LeetCode/tree/master/0020-valid-parentheses) |
 | [0837-most-common-word](https://github.com/tmakude/LeetCode/tree/master/0837-most-common-word) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/tmakude/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/tmakude/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
@@ -32,4 +33,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1961-maximum-ice-cream-bars](https://github.com/tmakude/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/tmakude/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
