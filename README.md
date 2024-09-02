@@ -44,4 +44,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/tmakude/LeetCode/tree/master/0007-reverse-integer) |
+| [2238-a-number-after-a-double-reversal](https://github.com/tmakude/LeetCode/tree/master/2238-a-number-after-a-double-reversal) |
 <!---LeetCode Topics End-->
