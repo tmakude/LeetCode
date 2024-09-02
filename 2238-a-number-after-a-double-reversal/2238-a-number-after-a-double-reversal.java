@@ -1,8 +1,9 @@
 class Solution {
     public boolean isSameAfterReversals(int num) {
 
-        int reverse1 = reverse(num);
-        int reverse2 = reverse(reverse1);
+        int reverse1 = Integer.parseInt(new StringBuilder(String.valueOf(num)).reverse().toString());
+
+        int reverse2 =Integer.parseInt(new StringBuilder(String.valueOf(reverse1)).reverse().toString());
 
         return reverse2 == num;
 
@@ -10,21 +11,5 @@ class Solution {
         
     }
 
-    public int reverse(int x){
-
-        int reverse = 0;
-
-        while(x !=0){
-
-            int reminder = x%10;
-
-            reverse = reverse * 10 + reminder;
-
-            x/=10;
-        }
-
-        return reverse;
-
-
-    }
+  
 }
