@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0599-minimum-index-sum-of-two-lists](https://github.com/tmakude/LeetCode/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0837-most-common-word](https://github.com/tmakude/LeetCode/tree/master/0837-most-common-word) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/tmakude/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
+| [2076-sum-of-digits-of-string-after-convert](https://github.com/tmakude/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/tmakude/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 ## Counting
 |  |
@@ -45,4 +46,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/tmakude/LeetCode/tree/master/0007-reverse-integer) |
 | [2238-a-number-after-a-double-reversal](https://github.com/tmakude/LeetCode/tree/master/2238-a-number-after-a-double-reversal) |
+## Simulation
+|  |
+| ------- |
+| [2076-sum-of-digits-of-string-after-convert](https://github.com/tmakude/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 <!---LeetCode Topics End-->
