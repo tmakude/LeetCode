@@ -1,26 +1,20 @@
 class Solution {
     public boolean isPalindrome(int x) {
 
-        int y=x;
-        int digit=0;
-        int reverse=0;
+ // Convert the integer to a string
+        String str = Integer.toString(x);
 
+        int left = 0;
+        int right = str.length() - 1;
 
-
-while(y!=0 && y>0)
-{
-        digit=y%10;
-         reverse= reverse*10+digit;
-         y=y/10;
-}
-        if(x== reverse )
-        {
-            return true;
-
+        // Check characters from both ends
+        while (left <= right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false; // Not a palindrome
+            }
+            left++;
+            right--;
         }
-        else
-        {
-            return false;
-        }
-    }
-}
+
+        return true;
+}}
