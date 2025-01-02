@@ -1,42 +1,25 @@
 class Solution {
     public int maxArea(int[] height) {
-       
 
-        // use two pointer aooroach
+        int left = 0;
+        int right =height.length-1;
+        int maxArea=0;
+        while(left < right){
 
-        int maxarea = 0 ;
-        int leftColumn = 0 ;
-        int rightCoulmn = height.length - 1;
+            int currentArea = (right - left) * Math.min(height[left] , height[right]);
 
-        while(leftColumn < rightCoulmn)
-        {
-            int width = rightCoulmn -  leftColumn ;
-            int minarea = Math.min(height[leftColumn] , height[rightCoulmn]);
-            int currentarea= width * minarea;
+            maxArea = Math.max(maxArea,currentArea);
 
-            maxarea = Math.max(maxarea , currentarea);
+            if(height[left] < height[right]){
 
-            if(height[leftColumn]  < height[rightCoulmn])
-            {
-                leftColumn++;
-            }
-            else
-            {
-                rightCoulmn--;
+                left++;
+            }else{
+                right--;
             }
 
         }
 
-        return maxarea;
-
-
-
-        
-
-
-
-
-
+        return maxArea;
         
     }
 }
