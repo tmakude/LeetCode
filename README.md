@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/tmakude/LeetCode/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/tmakude/LeetCode/tree/master/0011-container-with-most-water) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/tmakude/LeetCode/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0837-most-common-word](https://github.com/tmakude/LeetCode/tree/master/0837-most-common-word) |
 | [1961-maximum-ice-cream-bars](https://github.com/tmakude/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/tmakude/LeetCode/tree/master/0011-container-with-most-water) |
 | [1961-maximum-ice-cream-bars](https://github.com/tmakude/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 ## Sorting
 |  |
@@ -53,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/tmakude/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
+## Two Pointers
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/tmakude/LeetCode/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
