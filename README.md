@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/tmakude/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/tmakude/LeetCode/tree/master/0011-container-with-most-water) |
+| [0056-merge-intervals](https://github.com/tmakude/LeetCode/tree/master/0056-merge-intervals) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/tmakude/LeetCode/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0837-most-common-word](https://github.com/tmakude/LeetCode/tree/master/0837-most-common-word) |
 | [1961-maximum-ice-cream-bars](https://github.com/tmakude/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/tmakude/LeetCode/tree/master/0056-merge-intervals) |
 | [1961-maximum-ice-cream-bars](https://github.com/tmakude/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 ## Stack
 |  |
